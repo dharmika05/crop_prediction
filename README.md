@@ -1,14 +1,14 @@
-🌾 Crop Prediction using Machine Learning
+# Crop Prediction using Machine Learning
 
-This project predicts the most suitable crop to cultivate based on environmental factors such as temperature, humidity, soil pH, and rainfall using a machine learning model. It aims to assist farmers in making informed agricultural decisions.
+This project predicts the most suitable crop to grow based on environmental parameters such as temperature, humidity, soil pH, and rainfall using a Random Forest Classifier. It helps farmers make data-driven decisions to maximize crop yield.
 
-🚀 Project Overview
+# Project Overview
 
-Efficient crop selection is essential for maximizing yield and sustainability. This system uses a Random Forest Classifier trained on historical data to accurately recommend the most appropriate crop for the given environmental conditions.
+Agricultural productivity depends heavily on environmental factors. Choosing the right crop for specific conditions can significantly improve yield and reduce losses. This system uses a machine learning model trained on historical crop data to accurately recommend the optimal crop for given conditions.
 
-📁 Dataset
+# Dataset
 
-The dataset cpdata.csv contains the following features:
+The dataset cpdata.csv contains the following columns:
 
 Feature	Description
 temperature	Average temperature (°C)
@@ -16,7 +16,10 @@ humidity	Relative humidity (%)
 ph	Soil pH level
 rainfall	Annual rainfall (mm)
 label	Crop name (Target variable)
-🛠️ Technologies Used
+
+Place cpdata.csv in the same directory as crop_prediction.py or update the file path in the script accordingly.
+
+# Technologies Used
 
 Python
 
@@ -26,10 +29,27 @@ Scikit-learn
 
 Random Forest Classifier
 
-Jupyter Notebook / Python Script
+# Installation
 
-📦 Required Libraries
-
-Install the required libraries using pip:
+Install the required Python packages using pip:
 
 pip install pandas scikit-learn
+
+⚡ How to Run
+
+Clone or download this repository.
+
+Make sure cpdata.csv is in the correct directory.
+
+Run the script:
+
+python crop_prediction.py
+
+
+The script will:
+
+Train the Random Forest model on the dataset
+
+Print the model accuracy
+
+Predict a sample crop based on example input
