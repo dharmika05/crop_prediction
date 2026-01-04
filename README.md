@@ -11,11 +11,14 @@ Agricultural productivity depends heavily on environmental factors. Choosing the
 The dataset cpdata.csv contains the following columns:
 
 Feature	Description
-temperature	Average temperature (°C)
-humidity	Relative humidity (%)
-ph	Soil pH level
-rainfall	Annual rainfall (mm)
-label	Crop name (Target variable)
+| Feature     | Description                |
+|------------|----------------------------|
+| temperature | Average temperature (°C)   |
+| humidity    | Relative humidity (%)      |
+| ph          | Soil pH level              |
+| rainfall    | Annual rainfall (mm)       |
+| label       | Crop name (Target variable)|
+
 
 Place cpdata.csv in the same directory as crop_prediction.py or update the file path in the script accordingly.
 
