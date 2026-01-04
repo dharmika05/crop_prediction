@@ -37,10 +37,10 @@ Random Forest Classifier
 Install the required Python packages using pip:
 
 
- pip install pandas scikit-learn
+    pip install pandas scikit-learn
 
 
-#How to Run
+# How to Run
 
 1.Clone or download this repository.
 
