@@ -40,14 +40,14 @@ pip install pandas scikit-learn
 
 ⚡ How to Run
 
-.Clone or download this repository.
+1.Clone or download this repository.
 
-.Make sure cpdata.csv is in the correct directory.
+2.Make sure cpdata.csv is in the correct directory.
 
-.Run the script:
+3.Run the script:
 python crop_prediction.py
 
-.The script will:
+4.The script will:
 
 Train the Random Forest model on the dataset
 
