@@ -36,10 +36,11 @@ Random Forest Classifier
 
 Install the required Python packages using pip:
 
- python crop_prediction.py
+
+ pip install pandas scikit-learn
 
 
-⚡ How to Run
+#How to Run
 
 1.Clone or download this repository.
 
